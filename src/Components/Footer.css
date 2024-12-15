@@ -1,0 +1,30 @@
+/* Footer.css */
+
+.footer {
+    background-color: #2e8b57; /* Alpine green color */
+    color: white;
+    padding: 1rem; /* Reduced padding */
+    text-align: center;
+    font-size: 0.875rem; /* Reduced font size */
+  }
+  
+  .footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer section {
+    margin: 0.5rem; /* Reduced margin */
+  }
+  
+  .footer h2 {
+    margin-top: 0;
+    font-size: 1.25rem; /* Reduced heading size */
+    color: black;
+  }
+  
+  .footer p {
+    margin: 0.25rem 0; /* Reduced paragraph margin */
+  }
+  

@@ -1,0 +1,118 @@
+/* Styling for the register container */
+.register-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 20px; /* Smooth, modern rounded corners */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Title Styling */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Styling for form groups to make them align nicely */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+}
+
+/* Styling for fields to be on the same line separately */
+.form-group-inline {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px; /* Adds spacing between fields */
+}
+
+/* Label styling for both fields */
+.form-group label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #34495e;
+    text-align: left;
+    width: 100%;
+}
+
+/* Input Fields Styling */
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f9f9f9; /* Soft background color for input fields */
+    transition: all 0.3s ease;
+}
+
+/* Remove the green focus effect */
+.form-group input:focus {
+    border-color: #ddd;
+    box-shadow: none;
+    background-color: #f9f9f9; /* No color change on focus */
+}
+
+/* Button styling */
+.btn-register {
+    background-color: #4b9f70;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-register:hover {
+    background-color: #397f53;
+    transform: scale(1.05);
+}
+
+.btn-register:active {
+    transform: scale(1);
+}
+
+/* Adding subtle hover effect for form fields */
+.form-group input:hover {
+    background-color: #f1f1f1; /* Slight color change on hover */
+}
+
+/* Adding a subtle animation effect to the entire container */
+.register-container {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Keyframe for fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

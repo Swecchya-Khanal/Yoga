@@ -1,0 +1,49 @@
+.homeContainer {
+    background-image: url("../../../public/pngtreeyog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    top: 0;
+    overflow: hidden; /* Hide scrollbars */
+    margin: auto;
+  }
+  
+  .homeInfo {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .homeImg {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .homeImg > img {
+    margin: 0 auto;
+    display: flex;
+    width: 50%; /* Adjust this value to make the image smaller */
+  }
+  
+  .homeinfo_button > button {
+    background-color: #F4761F;
+    border: none;
+    width: 150px;
+    height: 40px;
+  }
+  
+  .homeinfo_button > button:hover {
+    background-color: #f08940;
+  }
+  
+  .homeInfo_heading {
+    font-size: 80px;
+    color: bisque;
+  }
+  
+  .homeInfo_subheading {
+    font-size: 30px;
+   color: bisque;
+  }
+  
